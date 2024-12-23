@@ -1,5 +1,12 @@
+### Eclipse ###
+.apt_generated
 .classpath
+.factorypath
 .project
-plot.data
-plot_trans.data
-bin
+.settings
+.springBeans
+.sts4-cache
+.data
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
