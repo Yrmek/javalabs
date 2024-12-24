@@ -70,6 +70,8 @@ public class GraphicsDisplay extends JPanel {
         areaFont = new Font("Serif", Font.BOLD, 16);
         labelsFont = new Font("Serif", 0, 10);
         GraphicsDisplay.formatter.setMaximumFractionDigits(5);
+        addMouseListener(new MouseHandler());
+        addMouseMotionListener(new MouseMotionHandler());
     }
 
     public void displayGraphics(Double[][] GraphicsData, Double[][] OriginalData) {
